@@ -1,0 +1,59 @@
+.nftDrop {
+  padding-bottom: 100px;
+  padding-top: 100px;
+  h2 {
+    max-width: 819px;
+    margin: 0 auto;
+    height: 97.268px;
+    flex-shrink: 0;
+    color: #f5fbf2;
+    text-align: center;
+
+    /* Display Text/Header Big */
+    font-family: Oxanium;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130px; /* 203.125% */
+  }
+
+  .inputEmail {
+    display: flex;
+    margin: 25px auto;
+    margin-left: 340px;
+
+    input {
+      width: 480px;
+      height: 76px;
+      padding-left: 55px;
+      color: #a48ea9;
+      font-family: Work Sans;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 35.452px; /* 147.717% */
+      background: black;
+      border: 2px #e7b226 !important;
+    }
+
+    input:focus {
+      border: 2px #e7b226 !important;
+    }
+
+    button {
+      width: 244px;
+      color: #251928;
+      font-family: Work Sans;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 35.452px; /* 147.717% */
+      background: #e7b226;
+      border: none;
+
+      &:hover {
+        background: #ffbe0a;
+      }
+    }
+  }
+}
